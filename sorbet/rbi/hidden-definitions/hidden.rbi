@@ -2600,9 +2600,6 @@ module ActiveRecord::AttributeMethods::PrimaryKey::ClassMethods
   ID_ATTRIBUTE_METHODS = ::T.let(nil, ::T.untyped)
 end
 
-class ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter
-end
-
 module ActiveRecord::Batches
   ORDER_IGNORE_MESSAGE = ::T.let(nil, ::T.untyped)
 end
@@ -2686,9 +2683,6 @@ end
 
 ActiveRecord::ConnectionAdapters::PostgreSQLAdapter::OID = ActiveRecord::ConnectionAdapters::PostgreSQL::OID
 
-class ActiveRecord::ConnectionAdapters::PostgreSQLTypeMetadata
-end
-
 ActiveRecord::ConnectionAdapters::SchemaCreation = ActiveRecord::ConnectionAdapters::AbstractAdapter::SchemaCreation
 
 class ActiveRecord::ConnectionAdapters::StatementPool
@@ -2758,9 +2752,6 @@ end
 
 module ActiveRecord::LegacyYamlAdapter
   def self.convert(klass, coder); end
-end
-
-class ActiveRecord::Locking::LockingType
 end
 
 class ActiveRecord::LogSubscriber
@@ -3242,13 +3233,7 @@ ActiveRecord::Type::Helpers = ActiveModel::Type::Helpers
 
 ActiveRecord::Type::Integer = ActiveModel::Type::Integer
 
-class ActiveRecord::Type::Serialized
-end
-
 ActiveRecord::Type::String = ActiveModel::Type::String
-
-class ActiveRecord::Type::Time::Value
-end
 
 module ActiveRecord::VERSION
   MAJOR = ::T.let(nil, ::T.untyped)
@@ -9039,9 +9024,6 @@ module Mail::Parsers::ReceivedParser
 end
 
 module Mail::Parsers
-end
-
-class Mail::PartsList
 end
 
 class Mail::PhraseList
